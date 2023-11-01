@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .outer {
+    width: 800px;
+}
+.main_left {
+    width:200px;
+    background:red;
+}
+.main_right {
+    float:right;
+    width:600px;
+}
+.top_left {
+    background:blue;
+    width: 400px;
+}
+.top_right {
+    background:purple;
+    float: right;
+    width:200px;
+}
+.left {
+    background:yellow;
+    width: 350px;
+}
+.right {
+    background:green;
+    float: right;
+    width: 250px;
+}
+</style>
+<body>
+    <div class="outer">
+        <div class="main_right">
+            <div class="top">
+                <div class="top_right">top right</div>
+                <div class="top_left">top left</div>
+            </div>
+            <div class="bottom">
+                <div class="right">right1</div>
+                <div class="left">
+                    <table>
+                        <tr>
+                            <td>left 1</td>
+                            <td>left 2</td>
+                        </tr>
+                        <tr>
+                            <td>left 1</td>
+                            <td>left 2</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="right">right2</div>
+                <div class="left">
+                    <table>
+                        <tr>
+                            <td>left 1</td>
+                            <td>left 2</td>
+                        </tr>
+                        <tr>
+                            <td>left 1</td>
+                            <td>left 2</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="main_left">main left</div>
+    </div>
+    <br>
+        
+
+    </div>
+</body>
+</html>
